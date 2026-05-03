@@ -1,0 +1,15 @@
+.DS_Store
+._*
+__MACOSX/
+__pycache__/
+*.pyc
+
+*.log
+*.pth
+*.pt
+*.ckpt
+
+model_save*/
+results*/
+data/
+dataset/
