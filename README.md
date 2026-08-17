@@ -4,7 +4,7 @@ This repository provides the main implementation for the manuscript **“Multimo
 
 The study investigates three-class heart rhythm classification using wrist photoplethysmography (PPG) and tri-axial accelerometer (ACC) signals collected from elderly inpatients. The classification task includes sinus rhythm (SR), atrial fibrillation (AF), and other rhythms. The repository includes data loading, preprocessing, model construction, training, and evaluation scripts for the proposed multimodal fusion model and reproduced baseline models.
 
-![Overview of the proposed lightweight PPG–ACC fusion pipeline.](Overview of the proposed lightweight PPG–ACC fusion pipeline.png)
+![Overview of the proposed lightweight PPG–ACC fusion pipeline.](overall.png)
 
 Figure 1. Overview of the proposed lightweight PPG–ACC fusion pipeline. Wrist PPG and tri-axial ACC signals were collected from elderly inpatients using a Philips datalogger, while chest ECG from a Bittium Faros device served as the reference standard. ECG-derived annotations were aligned with the wearable recordings and mapped into 30 s segment-level SR, AF, and Other labels. After preprocessing, PPG and ACC signals were combined into a four-channel input and processed by a lightweight temporal network with residual, dilated convolutional, and temporal attention components. During evaluation, all test segments were retained, and ACC-derived motion variance was used for motion-percentile cumulative-coverage analysis.
 
