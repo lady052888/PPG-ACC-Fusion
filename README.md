@@ -1,8 +1,8 @@
 # Multimodal PPG–Accelerometer Fusion for Three-Class Heart Rhythm Classification in Elderly Inpatients
 
-This repository provides the main implementation for the manuscript **“Multimodal PPG–Accelerometer Fusion for Three-Class Heart Rhythm Classification in Elderly Inpatients.”**
+This repository provides the main implementation for the manuscript **“Multimodal PPG–Accelerometer Fusion for Heart Rhythm Classification in Elderly Inpatients.”**
 
-The study investigates three-class heart rhythm classification using wrist photoplethysmography (PPG) and tri-axial accelerometer (ACC) signals collected from elderly inpatients. The classification task includes sinus rhythm (SR), atrial fibrillation (AF), and other rhythms. The repository includes data loading, preprocessing, model construction, training, and evaluation scripts for the proposed multimodal fusion model and reproduced baseline models.
+The study investigates heart rhythm classification using wrist photoplethysmography (PPG) and tri-axial accelerometer (ACC) signals collected from elderly inpatients. The classification task includes sinus rhythm (SR), atrial fibrillation (AF), and other rhythms. The repository includes data loading, preprocessing, model construction, training, and evaluation scripts for the proposed multimodal fusion model and reproduced baseline models.
 
 ![Overview of the proposed lightweight PPG–ACC fusion pipeline.](overall.png)
 
